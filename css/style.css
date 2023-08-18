@@ -4,17 +4,26 @@ body {
 }
 
 ul {
-  margin: 0;
   padding: 0;
   list-style: none;
 }
 
 a {
   text-decoration: none;
+  color: inherit;
+}
+
+h1, ul, p {
+  margin: 0px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
 
 .header-bg {
-  background-color: #000;
+  background: #000000;
 }
 
 .header {
@@ -22,8 +31,7 @@ a {
   flex-wrap: wrap;
   gap: 20px;
   justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   padding: 20px;
   max-width: 1200px;
   align-items: center;
@@ -96,4 +104,58 @@ a {
   .header-menu a {
     font-size: 0.75rem;
   }
+}
+
+
+.intro-bg {
+  background: #000000;
+  color: #ffffff;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 40px;
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.intro a {
+  display: inline-block;
+  background: linear-gradient(#ffbf00, #f2a60c);
+  color: #332200;
+  font-size: 1.125rem;
+  line-height: 1.33;
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  padding: 16px 32px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.intro a:hover {
+  background: linear-gradient(#ffb60d, #e59017);
+}
+
+.intro h1 {
+  font-size: 4rem;
+  line-height: 1.125;
+  margin-bottom: 32px;
+}
+
+.intro h1 span {
+  color: #ffbb00;
+}
+
+.intro p {
+  font-size: 24px;
+  line-height: 1.5;
+  color: #b3b3b3;
+  margin-bottom: 24px;
+}
+
+.intro-desc {
+  align-self: end;
+  padding-bottom: 120px;
 }
