@@ -36,15 +36,6 @@
   padding-bottom: 200px;
 }
 
-@media (max-width: 1200px) {
-  .intro h1 {
-    font-size: 3rem;
-  }
-  .intro p {
-    font-size: 1.25rem;
-  }
-}
-
 @media (max-width: 800px) {
   .intro-bg {
     background: var(--c11);
@@ -59,7 +50,6 @@
     padding-bottom: 0;
   }
   .intro h1 {
-    font-size: 2.5rem;
     margin-bottom: 16px;
   }
   .intro img {

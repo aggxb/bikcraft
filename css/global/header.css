@@ -21,13 +21,9 @@
 }
 
 .header-menu a {
-  font-family: "Poppins";
-  font-weight: 400;
   display: inline-block;
   position: relative;
   padding: 16px 0px;
-  font-size: 1.125rem;
-  line-height: 1.5;
 }
 
 .header-menu a::after {
@@ -72,11 +68,5 @@
   .header-menu a {
     padding: 8px 12px;
     font-size: 1rem;
-  }
-}
-
-@media (max-width: 500px) {
-  .header-menu a {
-    font-size: 0.75rem;
   }
 }
