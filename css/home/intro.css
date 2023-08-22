@@ -7,18 +7,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px 40px;
-  max-width: 1200px;
-  box-sizing: border-box;
-  margin: 0 auto;
-  padding: 0 20px;
 }
 
 .intro h1 {
   margin-bottom: 32px;
-}
-
-.intro h1 span {
-  color: var(--p1);
 }
 
 .intro p {
@@ -28,7 +20,6 @@
 .intro img {
   height: 100%;
   object-fit: cover;
-  border-radius: 5px;
 }
 
 .intro-desc {
