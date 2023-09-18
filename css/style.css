@@ -1,6 +1,8 @@
+/* Utilitários */
 @import "./global/global.css";
 @import "./utilidades/tipografia.css";
 @import "./utilidades/cores.css";
+@import "./utilidades/formulário.css";
 
 @import "./global/header.css";
 @import "./global/footer.css";
@@ -26,6 +28,10 @@
 @import "./seguros/seguros.css";
 @import "./seguros/vantagens.css";
 @import "./seguros/perguntas.css";
+
+/* Contato */
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
 
 /* Termos e Condições */
 @import "./termos/termos.css";
