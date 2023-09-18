@@ -60,7 +60,8 @@
     grid-template-columns: 1fr;
   }
   .tecnologia-desc {
-    padding: 80px 0px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
   .tecnologia-desc a {
     margin-bottom: 60px;
