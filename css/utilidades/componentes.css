@@ -16,7 +16,9 @@
   padding: 16px 32px;
   max-width: max-content;
   text-transform: uppercase;
+  border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .btn:hover {
