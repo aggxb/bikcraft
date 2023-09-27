@@ -15,7 +15,7 @@
 }
 
 .contato-dados {
-  background: var(--c12);
+  background: var(--c12) url("../../img/dec/bottom-left.svg") no-repeat bottom 20px left 40px;
   border-radius: 5px 0 0 5px;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .contato-meios a:last-child {
-  background: url(../../img/icons/telefone.svg) no-repeat 0 2px;
+  background: url("../../img/icons/telefone.svg") no-repeat 0 2px;
   margin-bottom: 60px;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .contato-formulario {
-  background: var(--c0);
+  background: var(--c0) url("../../img/dec/bottom-right.svg") no-repeat bottom 20px right 40px; 
   border-radius: 0 5px 5px 0;
 }
 
@@ -84,6 +84,7 @@
     margin-bottom: 32px;
   }
   .contato-dados {
+    background: var(--c12);
     border-radius: 5px 5px 0 0;
   }
   .contato-redes {
