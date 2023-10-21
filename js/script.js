@@ -1,5 +1,4 @@
 // Ativar links do menu
-
 const links = document.querySelectorAll(".header-menu a");
 
 function ativarLink(link) {
@@ -15,7 +14,6 @@ links.forEach(ativarLink);
 
 
 // Ativar itens do orçamento
-
 const parametros = new URLSearchParams(location.search);
 
 function ativarProduto(parametro) {
@@ -29,7 +27,6 @@ parametros.forEach(ativarProduto);
 
 
 //Perguntas frequentes
-
 const perguntas = document.querySelectorAll(".perguntas button");
 
 function ativarPergunta(event) {
@@ -50,7 +47,6 @@ perguntas.forEach(eventosPerguntas);
 
 
 // Galeria de Bicicletas
-
 const galeria = document.querySelectorAll(".bicicleta-img img");
 const galeriaContainer = document.querySelector(".bicicleta-img");
 
@@ -67,3 +63,9 @@ function eventosGaleria(img) {
 }
 
 galeria.forEach(eventosGaleria);
+
+
+// Animação
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
